@@ -44,4 +44,4 @@
 
 
 # EER/ Database model
-[Evobook_EER.pdf](https://github.com/dzhong22/EVOBOOK/files/7207082/Evobook_EER.pdf)
+![Evobook_EER](https://user-images.githubusercontent.com/70302984/134268351-87eea73e-d17f-4269-a583-34c5f9583a7c.png)
