@@ -42,3 +42,6 @@
 # ERD 
 ![Evobook_ERD_BE](https://user-images.githubusercontent.com/70302984/134267296-79b36867-7db8-45e9-aad7-887b141f00f6.jpg)
 
+
+# EER/ Database model
+[Evobook_EER.pdf](https://github.com/dzhong22/EVOBOOK/files/7207082/Evobook_EER.pdf)
