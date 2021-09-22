@@ -1,0 +1,78 @@
+create database gswd;
+use gswd;
+
+create table if not exists accounts (
+    accoundID int AUTO_INCREMENT NOT NULL,
+    userID varchar(50) NOT NULL,
+    password varchar(512) NOT NULL,
+    accountCreated DATETIME NOT NULL,
+    lastSignedIn DATETIME,
+    shopID int,
+    inventoryID int,
+    userProfileID int,
+    primary key (accoundID)
+);
+
+
+create table if not exists users (
+    uid varchar(50) NOT NULL,
+    fname varchar(50) NOT NULL,
+    lname varchar(50) NOT NULL,
+    email varchar(50) NOT NULL UNIQUE,
+    currency int,
+    primary key (uid)
+);
+
+
+create table if not exists profiles (
+    profileID int AUTO_INCREMENT NOT NULL,
+    userID varchar(50) NOT NULL ,
+    username varchar(50) NOT NULL,
+    nickname varchar(50),
+    firstname varchar(50),
+    age int,
+    weight int,
+    height int,
+    primary key (profileID)
+);
+
+
+create table if not exists items (
+    itemid int NOT NULL AUTO_INCREMENT,
+    itemname varchar(50) NOT NULL,
+    buyvalue int NOT NULL,
+    sellvalue int NOT NULL,
+    primary key(itemid)
+);
+
+create table if not exists inventory (
+    inventoryid int NOT NULL AUTO_INCREMENT,
+    itemName varchar(50) NOT NULL,
+    sellValue int NOT NULL,
+    uid varchar(50),
+    primary key(inventoryid)
+);
+
+
+create table if not exists task (
+    taskId int NOT NULL AUTO_INCREMENT,
+    uid varchar(50),
+    taskName varchar(50),
+    taskFrequency varchar(50),
+    taskTime varchar(50),
+    taskDescription varchar(50),
+    taskCheck int,
+    primary key(taskId)
+);
+
+INSERT INTO items(itemname, buyvalue, sellvalue) VALUES
+('cat', 1000, 500),
+('dog', 1000, 500),
+('cactus', 1500, 750),
+('water bottle', 3500, 1750),
+('skateboard', 1100, 550),
+('sword', 1600, 800),
+('computer', 10000, 5000),
+('chair', 650, 325);
+
+SET SQL_SAFE_UPDATES = 0;

@@ -1,0 +1,124 @@
+/* .settingTable {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  width: 809px;
+  height: 675px;
+} */
+
+.setting {
+  position: relative;
+  top:auto;
+  background-color: #f6f2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.General-button{
+  position: relative;
+  top: 70px;
+  margin-right: 1000px;
+  background-color: rgba(133, 104, 87, 0);
+  border: 2px solid #856857;
+  border-radius: 7px;
+  width: 185px;
+  height: 90px;
+  color: #E19251;
+  font-family: Karla;
+  font-size: 24px;
+  text-align: Center;
+}
+
+.Profile-button{
+  position: relative;
+  top: 70px;
+  margin-right: 1000px;
+  background-color: rgba(133, 104, 87, 0);
+  border: 2px solid #856857;
+  border-radius: 7px;
+  width: 185px;
+  height: 90px;
+  color: #856857;
+  font-family: Karla;
+  font-size: 24px;
+  text-align: Center;
+}
+
+.General-button-Profile{
+  position: relative;
+  top: 70px;
+  margin-right: 1000px;
+  background-color: rgba(133, 104, 87, 0);
+  border: 2px solid #856857;
+  border-radius: 7px;
+  width: 185px;
+  height: 90px;
+  color: #856857;
+  font-family: Karla;
+  font-size: 24px;
+  text-align: Center;
+}
+
+.Profile-button-Profile{
+  position: relative;
+  top: 70px;
+  margin-right: 1000px;
+  background-color: rgba(133, 104, 87, 0);
+  border: 2px solid #856857;
+  border-radius: 7px;
+  width: 185px;
+  height: 90px;
+  color: #E19251;
+  font-family: Karla;
+  font-size: 24px;
+  text-align: Center;
+}
+
+.setting-form{
+  position: relative;
+  top: -180px;
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.settingSubmitButton {
+  background-color: #989b6d;
+  border-radius: 20px;
+  width: 102px;
+  height: 35px;
+  color: #ffffff;
+}
+.Setting-form-header {
+  color: #A5593C;
+  font-family: Bree Serif;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: left;
+}
+.Setting-form-field{
+  color: #B37D54;
+  font-family: Karla;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.deleteAccountButton {
+  color: #b37d54;
+  font-family: Karla;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+/* .settingBorder {
+  border: 1px solid #856857;
+} */

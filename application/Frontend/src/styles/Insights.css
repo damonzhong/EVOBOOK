@@ -1,0 +1,38 @@
+.endInsightList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.habitInsightTracker p {
+  font-weight: bold;
+  color: #856857;
+  line-height: 10px;
+  font-size: 20px;
+}
+
+.habitInsight {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f6f2ef;
+}
+
+.insightBar {
+  display: flex;
+  flex-direction: row;
+}
+
+.trashIcon {
+  width: 26px;
+  height: 26px;
+  margin-right: 6px;
+}

@@ -1,0 +1,34 @@
+.navBar {
+    background-color: #b37d54;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    width: 236px;
+    height: 90px;
+}
+
+.navPic {
+    width: 40px;
+}
+
+.navBar button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    background-color: #b37d54;
+    color: white;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: row;
+}

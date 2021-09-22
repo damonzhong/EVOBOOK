@@ -1,0 +1,67 @@
+.Profile-body {
+  background-color: #f6f2ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Main-Profile {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.Profile-currency-description{
+  color: #E19251;
+  font-family: Karla;
+  font-size: 15px;
+  text-align: left;
+}
+
+.Profile-Picture {
+  border-radius: 100px;
+  width: 273px;
+  height: 273px;
+}
+
+.Logout-button {
+  background-color: #B37D54;
+  border-radius: 10px;
+  width: 150px;
+  height: 63px;
+  font-family: Karla;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.the-user{
+  color: #B37D54;
+  font-family: Karla;
+  font-size: 26px;
+  text-align: center;
+}
+
+.user-currency-amount{
+  color: #E19251;
+  font-family: Karla;
+  font-size: 40px;
+}
+
+.coin-img{
+  width: 49px;
+  height: 51px
+}
+
+.last-signin{
+  color: #856857;
+  font-family: Karla;
+  font-size: 18px;
+  text-align: left;
+}

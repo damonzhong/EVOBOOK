@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+.container-1-box {
+    background-color: #F6F2EF;
+    align-items: center;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #856857;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    margin-right: 35px;
+    margin-left: 35px;
+    position: relative;
+    text-align: center;
+}
+
+.container-1-itemBox{
+    position: absolute;
+    z-index: 100;
+    max-width:5000px;
+    align-items: center;
+}
+
+.Modal {
+    position: relative;
+    width:50%;
+    height:60%;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+    text-align: left;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #856857;
+    max-width: 600px;
+    background: #F6F2EF;
+  }
+
+  .Modal2 {
+    position: relative;
+    width:25%;
+    height:25%;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+    text-align: left;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #856857;
+    max-width: 420px;
+    background: #F6F2EF;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.15);
+  }
+
+/* Flex-related code */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Or space-between or space-around */
+}
+
+.bgContainer{
+    background-color: #B37D54;
+    border: 4px solid #856857;
+    border-radius: 33px;
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 25px;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 50px;
+    padding: 0;
+    margin-bottom: 500px;
+}
+
+.bgContainer2{
+
+    background-color: #B37D54;
+    border: 4px solid #856857;
+    border-radius: 33px;
+    width: 80%;
+    height: 100%;
+    display: block;
+    border-radius: 25px;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 50px;
+    padding: 0;
+    margin-bottom: 500px;
+    top:-30.5%
+}
+
+.flex>section {
+    align-items: center;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    text-align: center;
+    max-width: 400px;
+    position:absolute;
+}
+
+.flex>section>p {
+    flex-grow: 1;
+}
+
+/* This rule ist just because of the responsive images */
+@media (max-width: 1600px) {
+    .flex>section {
+        max-width: 250px;
+    }
+}
+
+.flex aside {
+    max-width: 100%;
+}
+
+.button-box {
+    text-align:center;
+    margin-top:20px;
+   }
+
+.purchaseButton {
+    display: inline-block;
+    /* styling checkmark */
+    background: #989B6D url(https://cdn.discordapp.com/attachments/217497198844182528/833270380562219028/RWKrr8S.png);
+    background-repeat: no-repeat;
+    background-position: 0.8em 50%;
+    background-size: 1.25em;
+    border: 0;
+    cursor: pointer;
+    /* styling text */
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    /* styling button */
+    border-radius: 10px;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    padding: 0;
+}
+
+.purchaseButton:hover {
+    background-color: #818363;
+    background-size: 1.75em;
+    background-position: 0.550em 50%;
+}
+
+.purchaseButton2 {
+    /* styling checkmark */
+    background: #989B6D url(https://cdn.discordapp.com/attachments/217497198844182528/833270380562219028/RWKrr8S.png);
+    background-repeat: no-repeat;
+    background-position: 0.8em 50%;
+    background-size: 1.25em;
+    border: 0;
+    cursor: pointer;
+    /* styling text */
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    /* styling button */
+    border-radius: 10px;
+    position: relative;
+    max-width: 70%;
+    width: 230px;
+    height: 50px;
+    padding: 0;
+    margin: 10px;
+    top: 140px;
+    right: -1%;
+}
+
+.purchaseButton2:hover {
+    background-color: #818363;
+    background-size: 1.75em;
+    background-position: 0.550em 50%;
+}
+
+.closeButton {
+    display: inline-block;
+    background: #989B6D url(https://cdn.discordapp.com/attachments/217497198844182528/833562098444271696/closeButton.png);
+    background-repeat: no-repeat;
+    background-color: #A5593C;
+    background-position: 0.8em 50%;
+    background-size: 1.25em;
+    border: 0;
+    cursor: pointer;
+    /* styling text */
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    /* styling button */
+    border-radius: 10px;
+    position: relative;
+    width: 230px;
+    max-width: 70%;
+    height: 50px;
+    padding: 0;
+    margin: 10px;
+    top: 140px;
+    right: 1%;
+}
+
+.closeButton2 {
+    display: inline-block;
+    background: #989B6D url(https://cdn.discordapp.com/attachments/217497198844182528/833562098444271696/closeButton.png);
+    background-repeat: no-repeat;
+    background-color: #A5593C;
+    background-position: 0.8em 50%;
+    background-size: 1.25em;
+    border: 0;
+    cursor: pointer;
+    /* styling text */
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    /* styling button */
+    border-radius: 10px;
+    position: absolute;
+    width: 250px;
+    max-width: 70%;
+    height: 50px;
+    padding: 0;
+    margin: 10px;
+    top: 150px;
+}
+
+.decorativeButton {
+    display: inline-block;
+    background-color: #e19251ff;
+    cursor: pointer;
+    /* styling text */
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    /* styling button */
+    border-radius: 10px;
+    width: 300px;
+    max-width: 100%;
+    height: 65px;
+    margin: 10px;
+    top: 150px;
+}
+
+
+.decorativeButton:hover{
+    background-color: rgb(184, 107, 44);
+}
+
+.progressiveButton {
+    display: inline-block;
+    background-color: #687a61ff;
+    cursor: pointer;
+    /* styling text */
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    /* styling button */
+    border-radius: 10px;
+    width: 300px;
+    max-width: 100%;
+    height: 65px;
+    margin: 10px;
+    top: 150px;
+}
+
+.progressiveButton:hover{
+    background-color: rgb(84, 99, 78)
+}
+
+.closeButton:hover{
+    background-color: #864228;
+    background-size: 1.75em;
+    background-position: 0.550em 50%;
+}
+
+.welcomeInfo {
+    color: #856857;
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: right;
+    margin-right: 2rem;
+    margin:20px;
+}
+
+.currencyInfo {
+    color: #E19251;
+    font-family: Karla;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.shopText {
+    color: #856857;
+    font-family: Cardo;
+    font-size: 70px;
+    line-height: 91px;
+    text-align: center;
+}
+
+p.itemName {
+    color: #856857;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1px;
+    margin-top: 5%;
+    position: relative;
+    top: 4%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+p.itemName2 {
+    color: #856857;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1px;
+    margin-top: -10%;
+    margin-bottom: 25px;
+    position: relative;
+    left: 50%;
+    top: -50px;
+    transform: translate(-50%, -50%);
+    vertical-align: top;
+    text-align: center;
+}
+
+p.itemType {
+    color: #B37D54;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 1px;
+    position: relative;
+    text-align: center;
+    top: 160px;
+}   
+
+p.itemDesc {
+    color: #856857;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 30px;
+
+    position: relative;
+    text-align: center;
+    top: 200px;
+    overflow-wrap: break-word;
+}
+
+p.purchaseComplete{
+    color: #856857;
+    font-family: 'Karla';
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 1px;
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    overflow-wrap: break-word;
+}
+
+.currencyTextTest {
+    color: #E19251;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 5px;
+}
+
+.currencyTextTest::before {
+    content: url(https://cdn.discordapp.com/attachments/217497198844182528/833460987881062490/coin.png);
+    content: "";
+    display: block;
+    width: 05px;
+    height: 25px;
+    float: left;
+}
+
+.currencyText2 {
+    color: #E19251;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
