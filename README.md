@@ -1,9 +1,25 @@
 # EVOBOOK
  Evobook – A digital health planner that evolves with you
+# Database
+MySQL 5.7.33
+
+#Web Server
+Node (Express JS) 8.10.0 / Nginx 1.14.0, based on performance requirements
+
+#Server-side Language
+JavaScript
+
+# Technologies Used
+- Web Framework: React 17.0.1
+- IDE: Webstorm, Visual Studio Code, Sublime
+- CI/CD: Cron, Docker 20.10.3
+- Container Management: Google Container Registry
+- Firewall: Google VPC Firewall
+- Application Security: OWASP ZAP
  
 # Contributions 
-- I was part of the backend team with two other team members. 
-- Divided task related to backend, with the use of Trello. 
+- Part of the backend team with two other team members. 
+- Divided task related to backend, through the use of Trello. 
 - Oversaw the creation and revisions to high level database architecture and organization
 - Oversaw the creation and revisions to database requirements, entities list
 - Oversaw the creation and revisions to database model and ERD
