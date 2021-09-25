@@ -61,3 +61,17 @@ JavaScript
 
 # EER/ Database model
 ![Evobook_EER](https://user-images.githubusercontent.com/70302984/134268351-87eea73e-d17f-4269-a583-34c5f9583a7c.png)
+
+# Backend server
+![EVO_BackendServerJS](https://user-images.githubusercontent.com/70302984/134788610-3a30cdf0-4542-4b4e-9b5f-04b4a5d9247b.png)
+
+# User Route
+![EVO_Routes_Users](https://user-images.githubusercontent.com/70302984/134788617-bba122c9-c0a0-4716-b4c9-a550fbc32f09.png)
+
+# Add user processor
+![EVO_AddUser_Processor](https://user-images.githubusercontent.com/70302984/134788620-1bfdb3ad-ccd0-4e55-b5a3-d0d96ab14231.png)
+
+# Add User SQL query 
+![EVO_AddUser_Processor](https://user-images.githubusercontent.com/70302984/134788623-942f77d7-f59b-459f-827a-09381362693f.png)
+
+
