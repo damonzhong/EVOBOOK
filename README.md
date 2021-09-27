@@ -18,14 +18,9 @@ JavaScript
 - Application Security: OWASP ZAP
  
 # Contributions 
-- Part of the backend team with two other team members. 
-- Divided task related to backend, through the use of Trello. 
-- Oversaw the creation and revisions to high level database architecture and organization
-- Oversaw the creation and revisions to database requirements, entities list
-- Oversaw the creation and revisions to database model and ERD
+- Oversaw the creation and revisions to database model, ERD, and UML class diagram
 - Set up endpoints on the Backend for the Frontend implementations of features
 - Created end points and queries to send a response to the Frontend for Add/Delete task, Buy/Sell item, update user currency for functions buy/sell/marking a task as checked
-- Created end points to get information from for task and user inventory.
 - Tested requests are received for the backend and responses are received for the Frontend, along with the frontend team
 
 
